@@ -1,9 +1,46 @@
-.jumbotron{
-margin-left: 240px;
-margin-right: 240px;
+body{
+    background-color:linen;
+}.jumbotron{
+margin-left: 200px;
+margin-right: 200px;
+background-color:rgb(248, 248, 234);
 }
 
 .card{
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.row no-gutters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.user{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+
+.wireframe{
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.megaCard{
+    background-color:rgb(248, 248, 234);
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.navbar navbar-light bg-light{
+    background-color:olivedrab;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    background-color:olivedrab;
 }
